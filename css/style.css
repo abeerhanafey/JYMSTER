@@ -1375,6 +1375,13 @@ body {
   /* <!-- -------------------------------------------------- --> */
 }
 
+@media screen and (max-width: 300px) {
+   .header-down .middle .button a {
+    margin: 1% 15%;
+    width: 60%;
+  }
+}
+
 @keyframes background_slider {
   0% {
     background-image: linear-gradient(
